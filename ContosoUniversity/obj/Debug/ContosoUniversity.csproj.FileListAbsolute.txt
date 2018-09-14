@@ -105,3 +105,4 @@ C:\Users\Guilherme\source\repos\TutorialMicrosoftEntity\ContosoUniversity\obj\De
 C:\Users\Guilherme\source\repos\TutorialMicrosoftEntity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.CoreCompileInputs.cache
 C:\Users\Guilherme\source\repos\TutorialMicrosoftEntity\ContosoUniversity\obj\Debug\ContosoUniversity.dll
 C:\Users\Guilherme\source\repos\TutorialMicrosoftEntity\ContosoUniversity\obj\Debug\ContosoUniversity.pdb
+C:\Users\Guilherme\source\repos\TutorialMicrosoftEntity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.ComplexDataModel.resources
