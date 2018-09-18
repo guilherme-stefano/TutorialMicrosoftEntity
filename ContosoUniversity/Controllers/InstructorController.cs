@@ -20,15 +20,15 @@ namespace ContosoUniversity.Controllers
         public ActionResult Index(int? id, int? courseID)
         {
             var viewModel = new InstructorIndexData(); 
-                viewModel.Insctructors = db.Instructors
+                viewModel.Instructors = db.Instructors
                 .Include(i => i.OfficeAssignment)
                 .Include(i => i.Courses.Select(c => c.Department))
-                .Include(i => i.LastName);
+                .OrderBy(i => i.LastName);
 
             if (id != null)
             {
-                ViewBag.InstrictorID = id.Value;
-                viewModel.Courses = viewModel.Insctructors.Where(
+                ViewBag.InstructorID = id.Value;
+                viewModel.Courses = viewModel.Instructors.Where(
                     i => i.ID == id.Value).Single().Courses;
             }
 
